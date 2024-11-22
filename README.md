@@ -178,7 +178,7 @@ Ensure you're downloading the correct version of your mods!
    ```
 6. **Submit a Pull Request:** Navigate back to our [original repository](https://github.com/emberhost/docs) and submit a pull request.
 
-Alternatively, you can send us your written text on our [Discord server](https://ember.host/discord) and we will publish it on your docs. 
+Alternatively, you can send us your written text on our [Discord server](https://ember.host/discord) and we will publish it on our docs. 
 
 </details>
 
