@@ -1,8 +1,9 @@
 # Contribution Guidelines for Ember Host Documentation
 
-Thank you for your interest in contributing to the Ember Host Documentation! To ensure consistency and quality across our guides, we have outlined the following general formatting rules and specifications. Please follow these guidelines when creating or updating documentation files.
+Thank you for your interest in contributing to the community-maintained Ember Host Documentation! To ensure consistency and quality across our guides, we have outlined the following general formatting rules and specifications. Please follow these guidelines when creating or updating documentation files.
 
----
+<details>
+<summary><strong>General Rules and Formatting Guide 📝 </strong></summary>
 
 ## **General Rules**
 - **Descriptive Frontmatter:** Each file must include YAML frontmatter at the top for metadata. Example:
@@ -125,27 +126,6 @@ Thank you for your interest in contributing to the Ember Host Documentation! To 
 
 ---
 
-## **Contributing Process**
-1. **Fork the Repository:** Click the "Fork" button to create a personal copy.
-2. **Clone Your Fork:** Download your forked repository:
-   ```bash
-   git clone https://github.com/your-username/docs.git
-   ```
-3. **Create a New Branch:** Work on your changes in a new branch:
-   ```bash
-   git checkout -b descriptive-branch-name
-   ```
-4. **Edit or Add Files:** Use the formatting rules and style guide outlined here.
-5. **Commit and Push:**
-   ```bash
-   git add .
-   git commit -m "Brief description of your changes"
-   git push origin descriptive-branch-name
-   ```
-6. **Submit a Pull Request:** Navigate back to our [original repository](https://github.com/emberhost/docs) and submit a pull request.
-
----
-
 ## **Examples**
 
 ### **Frontmatter**
@@ -173,4 +153,38 @@ Ensure you're downloading the correct version of your mods!
 1. Locate the mod on [Modrinth](https://modrinth.com/mods) or [CurseForge](https://www.curseforge.com/minecraft/mc-mods).
 2. Upload the mod file into the `mods` folder in your server's root directory.
 3. Restart your server.
-```
+``` 
+</details>
+
+<details>
+<summary><strong>How to Contribute 📚 </strong></summary>
+
+## **Contributing Process**
+1. **Fork the Repository:** Click the "Fork" button to create a personal copy.
+2. **Clone Your Fork:** Download your forked repository:
+   ```bash
+   git clone https://github.com/your-username/docs.git
+   ```
+3. **Create a New Branch:** Work on your changes in a new branch:
+   ```bash
+   git checkout -b descriptive-branch-name
+   ```
+4. **Edit or Add Files:** Use the formatting rules and style guide outlined here.
+5. **Commit and Push:**
+   ```bash
+   git add .
+   git commit -m "Brief description of your changes"
+   git push origin descriptive-branch-name
+   ```
+6. **Submit a Pull Request:** Navigate back to our [original repository](https://github.com/emberhost/docs) and submit a pull request.
+
+Alternatively, you can send us your written text on our [Discord server](https://ember.host/discord) and we will publish it on your docs. 
+
+</details>
+
+# Hall of Fame
+
+These are the helpful people who have contributed to our docs! If you have and you aren't listed here, let us know on our [Discord](https://ember.host/discord), and we'll also give you the helpful role.
+
+- IceWaffles (`@icewaffles`)
+- Sammy (`@goldenedit`)
