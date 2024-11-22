@@ -112,7 +112,7 @@ Thank you for your interest in contributing to the Ember Host Documentation! To 
   git clone https://github.com/emberhost/docs.git
   `‎``
   ```
-- Use inline code formatting (`\`backticks\``) for short snippets within sentences.
+- Use inline code formatting (\`backticks\`) for short snippets within sentences.
 
 ---
 
