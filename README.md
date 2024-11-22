@@ -110,7 +110,7 @@ Thank you for your interest in contributing to the Ember Host Documentation! To 
   ```markdown
   ```bash
   git clone https://github.com/emberhost/docs.git
-  \```
+  `‎``
   ```
 - Use inline code formatting (`\`backticks\``) for short snippets within sentences.
 
