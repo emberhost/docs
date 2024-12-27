@@ -29,15 +29,12 @@ Schduled backups are simple - you can use our inbuilt schedules feature in our p
 Go into the files tab of the panel. Then, click 'New File' -> type up your patternfile -> save it as `backupPattern.lst`
 
 ```P
-P sh
 - ./backups/**
 - ./bluemap/web/maps/**/tiles/**
 - ./dynmap/web/tiles/**
 - ./crash-reports/**
 - ./logs/**
 ```
-
-`P sh` dictates the start of the backupPattern.lst file
 
 _For Borg, lines in a pattern file start with + for include patterns and - for exclude patterns._ `- ./backups/**` tells Borg to exclude the backups directory and all its contents. The \*\* pattern matches any files and subdirectories recursively.
 
