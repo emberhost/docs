@@ -10,7 +10,7 @@
 * [Domains](server-management/domains.md)
 * [Importing Servers](server-management/importing-servers.md)
 * [Server Icon](server-management/server-icon.md)
-* [Server Optimisation](server-management/server-optimisation.md)
+* [Server Optimization](server-management/server-optimisation.md)
 * [Updating Servers](server-management/updating-servers.md)
 * [Velocity Network](server-management/velocity-network.md)
 

@@ -4,9 +4,9 @@ description: >-
   compromising on gameplay!
 ---
 
-# Server Optimisation
+# Server Optimization
 
-### **Ember Host Optimisation Guide**
+### **Ember Host Optimization Guide**
 
 The first thing to keep in mind is that there is no "best" configuration. These values will only improve performance to a certain degree - you should increase or decrease them to adjust to your server’s needs. However, it should be noted that the values provided below aim to be close to vanilla as possible, unlike certain more aggressive guides.
 
@@ -19,15 +19,15 @@ Before you check out our recommended server softwares, please note the given pla
 
 <10 players - [Vanilla](https://www.minecraft.net/en-us/download/server/) | Standard Minecraft software distributed by Mojang.
 
-15-50 players - [Paper](https://papermc.io/) (recommended) | Actively provides dupe and bug fixes over vanilla Minecraft. It contains many optimisation patches and is designed with performance in mind.
+15-50 players - [Paper](https://papermc.io/) (recommended) | Actively provides dupe and bug fixes over vanilla Minecraft. It contains many optimization patches and is designed with performance in mind.
 
-50+ players - [Pufferfish](https://ci.pufferfish.host) | Contains optimisations Paper considers too 'extreme' to add. Not recommended for use unless you have a very large server and require the extra performance.
+50+ players - [Pufferfish](https://ci.pufferfish.host) | Contains optimizations Paper considers too 'extreme' to add. Not recommended for use unless you have a very large server and require the extra performance.
 
-50+ players - [Purpur](https://purpurmc.org/) | Purpur is based off Pufferfish, meaning it contains all of its extra optimisations. Only use Purpur if you need its configuration options! Not recommended if you generally want a 'vanilla' MC experience.
+50+ players - [Purpur](https://purpurmc.org/) | Purpur is based off Pufferfish, meaning it contains all of its extra optimizations. Only use Purpur if you need its configuration options! Not recommended if you generally want a 'vanilla' MC experience.
 
 ### **Chunk Settings**
 
-`server.properties - view-distance: 7` The view distance option is the most impactful option on server performance. This option controls how many chunks the server will load around players and how far they will be able to see. For servers with under 10 players, settings this value to 10 or higher can be acceptable. This option should never be reduced below 3.
+`server.properties - view-distance: 7` The view distance option is the most impactful option on server performance. This option controls how many chunks the server will load around players and how far they will be able to see. For servers with under 10 players, setting this value to 10 or higher can be acceptable. This option should never be reduced below 3.
 
 `server.properties - simulation-distance: 5` Simulation distance controls how many chunks around the player will tick. If you don't want to lower the view distance any further but would like to avoid chunk lag, decreasing this option can help. You should never have this option set higher than the view distance.
 
@@ -77,7 +77,7 @@ Before you check out our recommended server softwares, please note the given pla
 
 ### **Tips**
 
-• Timings is a simple way to see exactly what is lagging your server! As it's (v2) built into Paper, you just need to execute the /timings paste command and click the link you're provided with. If you're unsure how to read timings, check out this [video tutorial by Aikar](https://www.youtube.com/watch?v=T4J0A9l7bfQ).
+• Timings is a simple way to see exactly what is lagging your server! As it's (v2) built into Paper, you just need to execute the `/timings paste` command and click the link you're provided with. If you're unsure how to read timings, check out this [video tutorial by Aikar](https://www.youtube.com/watch?v=T4J0A9l7bfQ). Note that timings may be removed from Paper, and we suggest for you to use Spark (see below!) instead.
 
 • [Spark](https://github.com/lucko/spark) is a plugin that digs a bit deeper than timings and tells you exactly what's lagging your server through profiling your server's CPU and memory usage. You can read how to use it on its [wiki](https://spark.lucko.me/docs/).
 
