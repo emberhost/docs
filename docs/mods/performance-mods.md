@@ -70,14 +70,14 @@ Mod for general-purpose optimisation which should improve several systems withou
 
 ***
 
-#### Phosphor[​](https://docs.bloom.host/mods-install/#phosphor) <a href="#phosphor" id="phosphor"></a>
+#### Moonrise <a href="#starlight" id="starlight"></a>
 
-Mod which optimises the lighting engine. The most noticable impact of this mod is improved chunk generation speed.&#x20;
+Mod which is a port of several important [Paper](../server-management/server-optimisation.md#server-software) patches. These include optimizations to the light engine (Starlight), chunk system, entity collisions, entity tracker, and random ticking optimizations. It optimizes many (but not all) of the same parts of the game as Lithium, so any conflicting areas are just disabled to enable compatibility.&#x20;
 
-> You can either choose to install Phosphor or Starlight. You can't run the two together, as they both attempt to optimise the lighting engine, but each in a different way.
+> The main optimization mod this this is not compatible with is C2ME, as both modify the chunk system. This makes them fundamentally incompatible with one another.
 
-[Modrinth](https://modrinth.com/mod/phosphor)\
-[CurseForge](https://www.curseforge.com/minecraft/mc-mods/phosphor/)
+[Modrinth](https://modrinth.com/mod/moonrise-opt)\
+No CurseForge page
 
 ***
 
@@ -87,17 +87,6 @@ Mod that aims to optimise and improve server performance across several areas. U
 
 [Modrinth](https://modrinth.com/mod/servercore)\
 [CurseForge](https://www.curseforge.com/minecraft/mc-mods/servercore)
-
-***
-
-#### Starlight[​](https://docs.bloom.host/mods-install/#starlight) <a href="#starlight" id="starlight"></a>
-
-Mod which optimises the lighting engine. The most noticable impact of this mod is improved chunk generation speed. Although Starlight is much faster than Phosphor, it is also likely to have more incompatibilities due to being more invasive - it completely rewrites the lighting engine.
-
-> You can either choose to install Phosphor or Starlight. You can't run the two together, as they both attempt to optimise the lighting engine, but each in a different way.
-
-[Modrinth](https://modrinth.com/mod/starlight)\
-No CurseForge Page
 
 ***
 
