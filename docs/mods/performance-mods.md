@@ -74,7 +74,7 @@ Mod for general-purpose optimisation which should improve several systems withou
 
 Mod which is a port of several important [Paper](../server-management/server-optimisation.md#server-software) patches. These include optimizations to the light engine (Starlight), chunk system, entity collisions, entity tracker, and random ticking optimizations. It optimizes many (but not all) of the same parts of the game as Lithium, so any conflicting areas are just disabled to enable compatibility.&#x20;
 
-> The main optimization mod this this is not compatible with is C2ME, as both modify the chunk system. This makes them fundamentally incompatible with one another.
+> The main optimization mod that this is not compatible with is C2ME. As both modify the chunk system, they are fundamentally incompatible with one another.
 
 [Modrinth](https://modrinth.com/mod/moonrise-opt)\
 No CurseForge page
