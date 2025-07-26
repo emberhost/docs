@@ -30,3 +30,7 @@
 * [Backups](ember-panel/backups.md)
 * [File Management](ember-panel/file-management.md)
 * [Schedules](ember-panel/schedules.md)
+
+## Billing
+
+* [Payments, Servers, Due Dates](billing/payments-servers-due-dates.md)
