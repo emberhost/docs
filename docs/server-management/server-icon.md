@@ -14,7 +14,7 @@ Prepare an PNG or JPG image on your computer, go to our web panel, click the fil
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-Upload the image from your computer, and that's it! A Minecraft server icon is 64 x 64 pixels, so any image with too high a resolution will be pinned down to that resolution. Restart your server and you'll see your new icon.
+Upload the image from your computer, and that's it! A Minecraft server icon is 64 x 64 pixels, so any image with too high a resolution will be binned down to that resolution. Restart your server and you'll see your new icon.
 
 ### **Manual Setup Requirements**
 
