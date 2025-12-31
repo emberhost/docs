@@ -21,7 +21,7 @@ Before you check out our recommended server softwares, please note the given pla
 
 15-50 players - [Paper](https://papermc.io/) (recommended) | Actively provides dupe and bug fixes over vanilla Minecraft. It contains many optimization patches and is designed with performance in mind.
 
-50+ players - [Pufferfish](https://ci.pufferfish.host) | Contains optimizations Paper considers too 'extreme' to add. Not recommended for use unless you have a very large server and require the extra performance.
+50+ players - [Pufferfish](https://ci.pufferfish.host/view/all/builds) | Contains optimizations Paper considers too 'extreme' to add. Not recommended for use unless you have a very large server and require the extra performance.
 
 50+ players - [Purpur](https://purpurmc.org/) | Purpur is based off Pufferfish, meaning it contains all of its extra optimizations. Only use Purpur if you need its configuration options! Not recommended if you generally want a 'vanilla' MC experience.
 
