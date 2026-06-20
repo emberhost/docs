@@ -30,4 +30,6 @@ Once you have gone to the files tab (or successfully connected to your server vi
 
 After you've uploaded the image, just restart your server and the changes should be applied. Enjoy your server's new icon!
 
-By `@icewaffles`
+If you have any more questions, you can receive support from either our knowledgable community or dedicated staff at any time of day in our [Discord](https://discord.com/invite/68s9zKtSFb). Good luck with your server!
+
+{% embed url="https://ember.host" %}

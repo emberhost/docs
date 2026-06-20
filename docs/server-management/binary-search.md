@@ -26,4 +26,6 @@ You get the idea! Keep cutting things in half until you find the problematic plu
 
 <figure><img src="../.gitbook/assets/binary.gif" alt=""><figcaption><p>Binary vs sequential search</p></figcaption></figure>
 
-By `@icewaffles`
+If you have any more questions, you can receive support from either our knowledgable community or dedicated staff at any time of day in our [Discord](https://discord.com/invite/68s9zKtSFb). Good luck with your s
+
+{% embed url="https://ember.host" %}

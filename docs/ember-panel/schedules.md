@@ -24,4 +24,6 @@ Here is an example of an automatic daily restart done with schedules.&#x20;
 
 <figure><img src="../.gitbook/assets/1.png" alt=""><figcaption><p>What this specific schedule should look like once completed.</p></figcaption></figure>
 
-By `@icewaffles`
+If you have any more questions, you can receive support from either our knowledgable community or dedicated staff at any time of day in our [Discord](https://discord.com/invite/68s9zKtSFb). Good luck with your server!
+
+{% embed url="https://ember.host" %}

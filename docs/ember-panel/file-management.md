@@ -26,4 +26,6 @@ For example, if you were using FileZilla, it should look something like this:
 If an IP address has a colon in the end which is followed by numbers, that would be the port. In this case, because the host address is `sftp://premium-1.ember.host:2022`, the port is just `2022`.
 {% endhint %}
 
-By `@icewaffles`
+If you have any more questions, you can receive support from either our knowledgable community or dedicated staff at any time of day in our [Discord](https://discord.com/invite/68s9zKtSFb). Good luck with your server!
+
+{% embed url="https://ember.host" %}

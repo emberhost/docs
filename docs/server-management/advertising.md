@@ -54,6 +54,6 @@ Probably the most vital part of having a successful server is simply having prop
 
 There's countless game modes you can choose from, and you'd do even better if you go down the routes of adding a unique twist and blend of features: this is what will set you apart from others.
 
-Here at Ember Host, we understand how difficult it can be to set up a successful Minecraft server. That is why this documentation page exists, and you can easily recieve support from either our knowledgable community or dedicated staff at any time of day in our [Discord](https://discord.com/invite/68s9zKtSFb). Good luck with your server!
+Here at Ember Host, we understand how difficult it can be to set up a successful Minecraft server. That is why this documentation page exists! If you want more help, you can receive support from either our knowledgable community or dedicated staff at any time of day in our [Discord](https://discord.com/invite/68s9zKtSFb). Good luck with your server!
 
-By `@icewaffles`
+{% embed url="https://ember.host" %}

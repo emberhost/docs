@@ -30,4 +30,6 @@ Alternatively, if you do not have a dedicated IP, you can follow these steps. Fo
 
 If you do not want to purchase a domain to customise your server join address, you can still do it for free by using our subdomains feature directly in our [panel](https://panel.ember.host)! Simply head to the subdomains section on the sidebar and type in whatever you want to let players to connect with (`xxx.emberhost.net`).
 
-By `@icewaffles`
+If you have any more questions, you can receive support from either our knowledgable community or dedicated staff at any time of day in our [Discord](https://discord.com/invite/68s9zKtSFb). Good luck with your server!
+
+{% embed url="https://ember.host" %}

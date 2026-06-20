@@ -17,4 +17,6 @@ Download the plugin [here](https://geysermc.org/download) and set the port in yo
 Running Geyser may result in incompatibilities with Anti-Cheats! Make sure to check if your Anti-Cheat has Geyser compatibility - and make any adjustments to its configuration files to support Geyser if needed.
 {% endhint %}
 
-By `@icewaffles`
+If you have any more questions, you can receive support from either our knowledgable community or dedicated staff at any time of day in our [Discord](https://discord.com/invite/68s9zKtSFb). Good luck with your server!
+
+{% embed url="https://ember.host" %}

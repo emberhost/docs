@@ -28,4 +28,6 @@ Ensure you're downloading the correct version of your mods! Forge and Fabric mod
 
 Certain mods require players to install them on their client as well. Check the documentation of your mod to see if this is required; mods may provide a separate file for clients and servers.
 
-By `@icewaffles`
+If you have any more questions, you can receive support from either our knowledgable community or dedicated staff at any time of day in our [Discord](https://discord.com/invite/68s9zKtSFb). Good luck with your server!
+
+{% embed url="https://ember.host" %}

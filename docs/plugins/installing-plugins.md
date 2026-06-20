@@ -37,4 +37,6 @@ If your plugin doesn't install properly, see if the following steps solve your i
 2. **Check your startup logs**: While your server starts up, see if there's any errors or warnings about your plugin in console. These often tell you why your plugin did not start up properly.&#x20;
 3. **Check the plugin's version**: Make sure your plugin version matches your Minecraft server version! If your plugin is incompatible with your server version, it won't function properly. You can check what versions your plugin support from the website you downloaded it from, or you can ask the plugin's author.
 
-By `@icewaffles`
+If you have any more questions, you can receive support from either our knowledgable community or dedicated staff at any time of day in our [Discord](https://discord.com/invite/68s9zKtSFb). Good luck with your server!
+
+{% embed url="https://ember.host" %}

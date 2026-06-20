@@ -106,4 +106,8 @@ VMP is a server-side optimisation mod designed for higher playercounts. It's bes
 [Modrinth](https://modrinth.com/mod/vmp-fabric)\
 [CurseForge](https://www.curseforge.com/minecraft/mc-mods/vmp-fabric)
 
-By `@icewaffles`
+
+
+If you have any more questions, you can receive support from either our knowledgable community or dedicated staff at any time of day in our [Discord](https://discord.com/invite/68s9zKtSFb). Good luck with your server!
+
+{% embed url="https://ember.host" %}

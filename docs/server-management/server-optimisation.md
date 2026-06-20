@@ -81,6 +81,8 @@ Before you check out our recommended server softwares, please note the given pla
 
 • [Spark](https://github.com/lucko/spark) is a plugin that digs a bit deeper than timings and tells you exactly what's lagging your server through profiling your server's CPU and memory usage. You can read how to use it on its [wiki](https://spark.lucko.me/docs/).
 
-• Avoid dodgy forks! Those downstream of Paper/Pufferfish/Purpur have been known to be shockingly unstable while providing a minor performance impact at best.
+• Avoid questionable forks! Those downstream of Paper/Pufferfish/Purpur have been known to be unstable while providing a minor performance impact at best.
 
-By `@icewaffles`
+If you have any more questions, you can receive support from either our knowledgable community or dedicated staff at any time of day in our [Discord](https://discord.com/invite/68s9zKtSFb). Good luck with your server!
+
+{% embed url="https://ember.host" %}

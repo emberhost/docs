@@ -24,4 +24,6 @@ Only some minor configuration needs to be done to your backend servers - the one
 
 There is no longer a security issue as with BungeeCord when on a Velocity server. Velocity's modern forwarding means you are safe from the UUID spoof exploit on all modern Minecraft versions!
 
-By `@icewaffles`
+If you have any more questions, you can receive support from either our knowledgable community or dedicated staff at any time of day in our [Discord](https://discord.com/invite/68s9zKtSFb). Good luck with your server!
+
+{% embed url="https://ember.host" %}

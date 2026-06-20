@@ -26,4 +26,6 @@ There exists a BungeeCord (and thus Waterfall) UUID spoof exploit which allows u
 
 Restart all your servers one last time and see if everything is working properly!
 
-By `@icewaffles`
+If you have any more questions, you can receive support from either our knowledgable community or dedicated staff at any time of day in our [Discord](https://discord.com/invite/68s9zKtSFb). Good luck with your s
+
+{% embed url="https://ember.host" %}

@@ -48,4 +48,6 @@ It's best practice to have a test server (even a local one if getting a hosted o
 
 Finally, as with all anticheats, expect false positives. Please obtain as much information as possible to aid with fixing the broken detection, and then report the bug on each respective anticheat's Discord or GitHub.
 
-By `@icewaffles`
+If you have any more questions, you can receive support from either our knowledgable community or dedicated staff at any time of day in our [Discord](https://discord.com/invite/68s9zKtSFb). Good luck with your server!
+
+{% embed url="https://ember.host" %}

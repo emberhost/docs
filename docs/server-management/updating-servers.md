@@ -27,4 +27,6 @@ This process is technically not possible, and updated worlds cannot be downgrade
 3. Delete the folders `world`, `world_nether` and `world_the_end.`
 4. Restart/start your server.
 
-By `@icewaffles`
+If you have any more questions, you can receive support from either our knowledgable community or dedicated staff at any time of day in our [Discord](https://discord.com/invite/68s9zKtSFb). Good luck with your server!
+
+{% embed url="https://ember.host" %}
