@@ -25,7 +25,7 @@ Optimises redstone. The most noticeable impact of this mod should be with redsto
 
 ***
 
-#### Chunky[​](https://docs.bloom.host/mods-install/#chunky) <a href="#chunky" id="chunky"></a>
+#### Chunky​ <a href="#chunky" id="chunky"></a>
 
 Chunk pre-generation mod. It helps in reducing server lag caused by chunk generation.
 
@@ -81,7 +81,7 @@ Mod that aims to optimise and improve server performance across several areas. U
 
 ***
 
-#### **Spark**[**​**](https://docs.bloom.host/mods-install/#spark) <a href="#spark" id="spark"></a>
+#### **Spark​** <a href="#spark" id="spark"></a>
 
 Diagnoses exact reasons of lag on your server whilst also providing server 'health reports'.
 
