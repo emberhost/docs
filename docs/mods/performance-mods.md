@@ -52,7 +52,7 @@ Mod that optimises network usage.
 
 ***
 
-#### Lithium[​](https://docs.bloom.host/mods-install/#lithium) <a href="#lithium" id="lithium"></a>
+#### ​Lithium <a href="#lithium" id="lithium"></a>
 
 Mod for general-purpose optimisation which should improve several systems without changing any vanilla mechanics.&#x20;
 
