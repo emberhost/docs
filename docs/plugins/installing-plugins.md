@@ -6,7 +6,7 @@ description: How to install plugins to customize your server!
 
 ### Introduction
 
-> **Requirements**[**​**](https://docs.bloom.host/#requirements)
+> **Requirements**
 >
 > In order to run plugins on your server, you have to be using a fork of Bukkit (e.g. Spigot, Paper, Pufferfish, Purpur, etc).  We recommend using [Paper](https://papermc.io). If you wish to use mods to customize your server instead, see our guide on [installing server mods](../mods/installing-mods.md)!
 
