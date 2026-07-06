@@ -1,12 +1,12 @@
 ---
-description: How to boost performance on your modded server!
+description: How to boost performance and fix lag on your modded server!
 ---
 
 # Performance Mods
 
 ### Introduction <a href="#chunky" id="chunky"></a>
 
-It's undeniable: modded server are simply much slower than servers based on Paper or its forks. Thus, here are some **Fabric** mods that can aid performance! Do note that even with these mods, performance still won't be comparable to a server running on Paper.&#x20;
+It's undeniable: modded server are simply much slower than servers based on Paper or its forks. Thus, here are some **Fabric** mods that can make your server run faster! Do note that even with these mods, performance still won't be comparable to a server running on Paper.&#x20;
 
 {% hint style="info" %}
 **Forge Support?**
@@ -18,7 +18,7 @@ Most of these mods also have a Forge equivalent, where a developer has ported it
 
 #### Alternate Current <a href="#chunky" id="chunky"></a>
 
-Optimises redstone. The most noticeable impact of this mod should be with redstone dust, where it can be up to 20x faster. Changes to redstone made by this mod are unnoticeable by _most_ players.
+Optimizes redstone. The most noticeable impact of this mod should be with redstone dust, where it can be up to 20x faster. Changes to redstone made by this mod are unnoticeable by all but the most technical players.
 
 [Modrinth](https://modrinth.com/mod/alternate-current)\
 [CurseForge](https://www.curseforge.com/minecraft/mc-mods/alternate-current)
@@ -36,7 +36,7 @@ Chunk pre-generation mod. It helps in reducing server lag caused by chunk genera
 
 #### FerriteCore <a href="#chunky" id="chunky"></a>
 
-Mod that optimises memory usage. Particularly useful for reducing memory usage in heavily modded scenarios.
+Mod that optimizes memory usage. Particularly useful for reducing memory usage in heavily modded scenarios.
 
 [Modrinth](https://modrinth.com/mod/ferrite-core)\
 [CurseForge](https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric)
@@ -45,7 +45,7 @@ Mod that optimises memory usage. Particularly useful for reducing memory usage i
 
 #### Krypton <a href="#krypton" id="krypton"></a>
 
-Mod that optimises network usage.
+Mod that optimizes network usage.
 
 [Modrinth](https://modrinth.com/mod/krypton)\
 [CurseForge](https://www.curseforge.com/minecraft/mc-mods/krypton)
@@ -54,7 +54,7 @@ Mod that optimises network usage.
 
 #### ​Lithium <a href="#lithium" id="lithium"></a>
 
-Mod for general-purpose optimisation which should improve several systems without changing any vanilla mechanics.&#x20;
+Mod for general-purpose optimization while staying true to vanilla mechanics.&#x20;
 
 [Modrinth](https://modrinth.com/mod/lithium)\
 [CurseForge](https://www.curseforge.com/minecraft/mc-mods/lithium/)
@@ -63,7 +63,7 @@ Mod for general-purpose optimisation which should improve several systems withou
 
 #### Moonrise <a href="#starlight" id="starlight"></a>
 
-Mod which is a port of several important [Paper](../server-management/server-optimisation.md#server-software) patches. These include optimizations to the light engine (Starlight), chunk system, entity collisions, entity tracker, and random ticking optimizations. It optimizes many (but not all) of the same parts of the game as Lithium, so any conflicting areas are just disabled to enable compatibility.&#x20;
+Mod that is a port of several important [Paper](../server-management/server-optimisation.md#server-software) patches. These include optimizations to the light engine (Starlight), chunk system, entity collisions, entity tracker, and random ticking optimizations. It optimizes many (but not all) of the same parts of the game as Lithium, so any conflicting areas are just disabled to enable compatibility.&#x20;
 
 > The main optimization mod that this is not compatible with is C2ME. As both modify the chunk system, they are fundamentally incompatible with one another.
 
@@ -74,7 +74,7 @@ No CurseForge page
 
 #### ServerCore <a href="#starlight" id="starlight"></a>
 
-Mod that aims to optimise and improve server performance across several areas. Unlike Lithium though, some of the modifications this mod makes may slightly alter vanilla gameplay. However, you can toggle these patches if you don't like them.
+Mod that aims to optimize and improve server performance across several areas. Unlike Lithium though, some of the modifications this mod makes may slightly alter vanilla gameplay. However, you can toggle these patches if you don't like them.
 
 [Modrinth](https://modrinth.com/mod/servercore)\
 [CurseForge](https://www.curseforge.com/minecraft/mc-mods/servercore)
@@ -83,7 +83,7 @@ Mod that aims to optimise and improve server performance across several areas. U
 
 #### **Spark​** <a href="#spark" id="spark"></a>
 
-Diagnoses exact reasons of lag on your server whilst also providing server 'health reports'.
+Mod that lets you find out exactly what is lagging your server.
 
 [Modrinth](https://modrinth.com/mod/spark)\
 [CurseForge](https://www.curseforge.com/minecraft/mc-mods/spark)
@@ -92,7 +92,7 @@ Diagnoses exact reasons of lag on your server whilst also providing server 'heal
 
 #### **Very Many Players**
 
-VMP is a server-side optimisation mod designed for higher playercounts. It's best used with [Lithium](performance-mods.md#lithium). This mod is technically still in alpha at time of writing, so use it at your own discretion.&#x20;
+VMP is a server-side optimization mod designed for higher playercounts. It's best used with [Lithium](performance-mods.md#lithium). This mod is technically still in alpha at time of writing, so use it at your own discretion.&#x20;
 
 [Modrinth](https://modrinth.com/mod/vmp-fabric)\
 [CurseForge](https://www.curseforge.com/minecraft/mc-mods/vmp-fabric)
