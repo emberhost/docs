@@ -10,9 +10,9 @@ description: How to install plugins to customize your server!
 >
 > In order to run plugins on your server, you have to be using a fork of Bukkit (e.g. Spigot, Paper, Pufferfish, Purpur, etc).  We recommend using [Paper](https://papermc.io). If you wish to use mods to customize your server instead, see our guide on [installing server mods](../mods/installing-mods.md)!
 
-> **What are plugins?**[**​**](https://docs.bloom.host/#what-are-plugins)
+> **What are plugins?**
 >
-> Plugins are essentially addons that make changes to your Minecraft server. These changes can be as minor as adding a simple command, or as major as adding an entire minigame to your server.
+> Plugins are addons that make changes to your Minecraft server. These changes can be as minor as adding a simple command, or as major as adding an entire minigame to your server.
 
 ### Setup
 
@@ -29,7 +29,7 @@ Make sure you trust the source of your plugin! Malicious plugins can cause a con
 
 Once the server is online, type `plugins` in your console or `/plugins` in-game. If you're able to see the plugin that you just installed show up in green, then you're good to go!
 
-### [​](https://docs.bloom.host/#what-to-do-if-a-plugin-doesnt-load)Troubleshooting <a href="#what-to-do-if-a-plugin-doesnt-load" id="what-to-do-if-a-plugin-doesnt-load"></a>
+### Troubleshooting <a href="#what-to-do-if-a-plugin-doesnt-load" id="what-to-do-if-a-plugin-doesnt-load"></a>
 
 If your plugin doesn't install properly, see if the following steps solve your issue.
 
