@@ -43,21 +43,12 @@ Mod that optimises memory usage. Particularly useful for reducing memory usage i
 
 ***
 
-#### Krypton[​](https://docs.bloom.host/mods-install/#krypton) <a href="#krypton" id="krypton"></a>
+#### Krypton <a href="#krypton" id="krypton"></a>
 
 Mod that optimises network usage.
 
 [Modrinth](https://modrinth.com/mod/krypton)\
 [CurseForge](https://www.curseforge.com/minecraft/mc-mods/krypton)
-
-***
-
-#### LazyDFU[​](https://docs.bloom.host/mods-install/#lazydfu) <a href="#lazydfu" id="lazydfu"></a>
-
-Makes your server start up quicker!
-
-[Modrinth](https://modrinth.com/mod/lazydfu)\
-[CurseForge](https://www.curseforge.com/minecraft/mc-mods/lazydfu)
 
 ***
 
@@ -90,7 +81,7 @@ Mod that aims to optimise and improve server performance across several areas. U
 
 ***
 
-#### Spark[​](https://docs.bloom.host/mods-install/#spark) <a href="#spark" id="spark"></a>
+#### **Spark**[**​**](https://docs.bloom.host/mods-install/#spark) <a href="#spark" id="spark"></a>
 
 Diagnoses exact reasons of lag on your server whilst also providing server 'health reports'.
 
@@ -99,7 +90,7 @@ Diagnoses exact reasons of lag on your server whilst also providing server 'heal
 
 ***
 
-**Very Many Players**
+#### **Very Many Players**
 
 VMP is a server-side optimisation mod designed for higher playercounts. It's best used with [Lithium](performance-mods.md#lithium). This mod is technically still in alpha at time of writing, so use it at your own discretion.&#x20;
 
