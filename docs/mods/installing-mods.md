@@ -6,13 +6,11 @@ description: How to install mods to customise your server!
 
 ### Introduction
 
-> **Requirements**[**​**](https://docs.bloom.host/#requirements)
->
-> In order to run mods on your server, you have to be using either [Forge](https://files.minecraftforge.net/net/minecraftforge/forge/) or [Fabric](https://fabricmc.net/use/server/). If you wish to use plugins to customise your server instead, see our guide on [installing server plugins](../plugins/installing-plugins.md)!
+In order to run mods on your server, you have to be using either [Forge](https://files.minecraftforge.net/net/minecraftforge/forge/), [NeoForge](https://neoforged.net/), or [Fabric](https://fabricmc.net/use/server/). If you wish to use plugins to customize your server instead, see our guide on [installing server plugins](../plugins/installing-plugins.md)!
 
-> **What are mods?**[**​**](https://docs.bloom.host/#what-are-plugins)
+> **What are mods?**
 >
-> Mods are like plugins: they're essentially addons that make changes to your Minecraft server. However, note that modded servers will generally be much slower than servers running Paper and its forks, due to Fabric and Forge not being designed with performance in mind.
+> Mods are like plugins: they're essentially addons that make changes to your Minecraft server. However, note that modded servers will generally be much slower than servers running Paper; Forge, NeoForge, and Fabric are not designed with server performance as a priority.
 
 ### Setup
 
