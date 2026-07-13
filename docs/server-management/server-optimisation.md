@@ -75,9 +75,7 @@ Before you check out our recommended server softwares, please note the given pla
 
 ### **Tips**
 
-• Timings is a simple way to see exactly what is lagging your server! As it's (v2) built into Paper, you just need to execute the `/timings paste` command and click the link you're provided with. If you're unsure how to read timings, check out this [video tutorial by Aikar](https://www.youtube.com/watch?v=T4J0A9l7bfQ). Note that timings may be removed from Paper, and we suggest for you to use Spark (see below!) instead.
-
-• [Spark](https://github.com/lucko/spark) is a plugin that digs a bit deeper than timings and tells you exactly what's lagging your server through profiling your server's CPU and memory usage. You can read how to use it on its [wiki](https://spark.lucko.me/docs/).
+• You should use [Spark](https://github.com/lucko/spark). Spark is a plugin that tells you exactly what's lagging your server through profiling your server's CPU and memory usage. You can read how to use it on its [wiki](https://spark.lucko.me/docs/).
 
 • Avoid questionable forks! Those downstream of Paper/Pufferfish/Purpur have been known to be unstable while providing a minor performance impact at best.
 
