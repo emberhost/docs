@@ -4,17 +4,17 @@ description: Everything there is to know about using our backups!
 
 # Backups
 
-### What Makes Us Different?&#x20;
+### What Makes Us Different?
 
-Ember Host uses something called Borg backups, which has some huge benefits over the S3 backup system that comes with Pterodactyl by default: de-duplicated and incremental backups. This means that each individual backup taken will only include changes since the last backup - hugely decreasing the amount of time backups take after the first one is created.&#x20;
+Ember Host uses custom software for our backups to give us advantages over the default backup system (that comes with Pterodactyl): de-duplicated and incremental backups. Unlike other hosts like Shockbyte or Apex, this means that each individual backup taken will only include changes since the last backup — hugely decreasing the amount of time backups take after the first one is created. In other words, our backups are faster and saves storage!
 
 ### Creating a Backup
 
 Here's how to make a backup - start by heading over to the backups tab on our [panel](https://panel.ember.host), and click `Create Backup`.
 
-<figure><img src="../.gitbook/assets/create1.png" alt=""><figcaption><p>Ember Panel - Backups tab</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Backups.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/create2.png" alt=""><figcaption><p>Name your backup, lock it, or select which files to include here!</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Backup Options.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 Selecting files to include here will override the existing `.pteroignore`
@@ -48,23 +48,17 @@ The `.pteroignore` file uses the same pattern format as `.gitignore`. Each line 
 
 To negate (include) a previously excluded pattern, prefix it with `!`.
 
-<figure><img src="../.gitbook/assets/creatingfile.png" alt=""><figcaption><p>Ember Panel Files tab - new file</p></figcaption></figure>
+### Further Examples
 
-<figure><img src="../.gitbook/assets/writingfile.png" alt=""><figcaption><p>Typing up the example patternfile</p></figcaption></figure>
+To exclude a specific directory: `path/to/directory/`
 
-<figure><img src="../.gitbook/assets/savingfile.png" alt=""><figcaption><p>Saving the patternfile</p></figcaption></figure>
+To exclude all .log files: `*.log`
 
-### Further Examples&#x20;
+To exclude a file: `filename.txt`
 
-To exclude a specific directory: `path/to/directory/`&#x20;
+To negate (include) a previously excluded pattern: `!important-file.txt`
 
-To exclude all .log files: `*.log`&#x20;
-
-To exclude a file: `filename.txt`&#x20;
-
-To negate (include) a previously excluded pattern: `!important-file.txt`&#x20;
-
-To exclude everything except a specific directory:&#x20;
+To exclude everything except a specific directory:
 
 ```gitignore
 *

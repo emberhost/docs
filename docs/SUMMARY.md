@@ -8,6 +8,7 @@
 * [Binary Search](server-management/binary-search.md)
 * [BungeeCord Network](server-management/bungeecord-network.md)
 * [Domains](server-management/domains.md)
+* [How To Make a 26.2 Minecraft Server](server-management/how-to-make-a-26.2-minecraft-server.md)
 * [Importing Servers](server-management/importing-servers.md)
 * [Server Icon](server-management/server-icon.md)
 * [Server Optimization](server-management/server-optimisation.md)
