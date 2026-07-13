@@ -1,19 +1,17 @@
 ---
-description: >-
-  Experiencing lag? Try adjusting some settings to improve performance without
-  compromising on gameplay!
+description: How to fix lag on your Minecraft server!
 ---
 
 # Server Optimization
 
 ### **Ember Host Optimization Guide**
 
-The first thing to keep in mind is that there is no "best" configuration. These values will only improve performance to a certain degree - you should increase or decrease them to adjust to your server’s needs. However, it should be noted that the values provided below aim to be close to vanilla as possible, unlike certain more aggressive guides.
+The first thing to keep in mind is that there is no "best" configuration. These values will only improve performance to a certain degree — you should increase or decrease them to adjust to your server’s needs. However, it should be noted that the values provided below aim to be close to vanilla as possible, unlike certain more aggressive guides. Anyhow, this is our guide to fixing lag on your Minecraft server!
 
 ### **Server Software**
 
 {% hint style="info" %}
-**Note:** \
+**Note:**\
 Before you check out our recommended server softwares, please note the given playercounts do **not** apply to everyone! They're just a generic estimate: how many players your specific server can handle will differ.
 {% endhint %}
 
@@ -21,9 +19,9 @@ Before you check out our recommended server softwares, please note the given pla
 
 15-50 players - [Paper](https://papermc.io/) (recommended) | Actively provides dupe and bug fixes over vanilla Minecraft. It contains many optimization patches and is designed with performance in mind.
 
-50+ players - [Pufferfish](https://ci.pufferfish.host/view/all/builds) | Contains optimizations Paper considers too 'extreme' to add. Not recommended for use unless you have a very large server and require the extra performance.
+50+ players - [Pufferfish](https://ci.pufferfish.host/view/all/builds) | Contains optimizations Paper doesn't want to add. Not recommended unless you have a very large server and require the extra performance. Some features will break more mechanics you're used to!
 
-50+ players - [Purpur](https://purpurmc.org/) | Purpur is based off Pufferfish, meaning it contains all of its extra optimizations. Only use Purpur if you need its configuration options! Not recommended if you generally want a 'vanilla' MC experience.
+50+ players - [Purpur](https://purpurmc.org/) | Purpur is based off Pufferfish, meaning it contains all of its extra optimizations. Purpur is known for all its configuration options (e.g. rideable mobs)! You should use Purpur if you need its configuration options. Not recommended if you generally want a vanilla Minecraft experience.
 
 ### **Chunk Settings**
 
