@@ -17,7 +17,7 @@ Here's how to make a backup - start by heading over to the backups tab on our [p
 <figure><img src="../.gitbook/assets/create2.png" alt=""><figcaption><p>Name your backup, lock it, or select which files to include here!</p></figcaption></figure>
 
 {% hint style="warning" %}
-Selecting files to include here will override the existing `backupPattern.lst`
+Selecting files to include here will override the existing `.pteroignore`
 {% endhint %}
 
 ### Creating Scheduled Backups
@@ -26,23 +26,27 @@ Schduled backups are simple - you can use our inbuilt schedules feature in our p
 
 ### Choosing Which Files Are Included in a Scheduled Backup
 
-Go into the files tab of the panel. Then, click 'New File' -> type up your patternfile -> save it as `backupPattern.lst`
+Go into the files tab of the panel. Then, click 'New File' -> type up your ignore patterns -> save it as `.pteroignore`
 
-```P
-- ./backups/**
-- ./bluemap/web/maps/**/tiles/**
-- ./dynmap/web/tiles/**
-- ./crash-reports/**
-- ./logs/**
+```gitignore
+backups/
+bluemap/web/maps/**/tiles/**
+dynmap/web/tiles/**
+crash-reports/
+logs/
 ```
 
-_For Borg, lines in a pattern file start with + for include patterns and - for exclude patterns._ `- ./backups/**` tells Borg to exclude the backups directory and all its contents. The \*\* pattern matches any files and subdirectories recursively.
+The `.pteroignore` file uses the same pattern format as `.gitignore`. Each line is a pattern for files or directories to exclude from backups. Patterns are relative to the root of your server directory.
 
-`- ./bluemap/web/maps/**/tiles/**` excludes all tiles directories under any directory within ./bluemap/web/maps/, including their contents.
+`backups/` ignores the entire backups directory and all its contents.
 
-`- ./dynmap/web/tiles/**` excludes all content within the ./dynmap/web/tiles/ directory, recursively.
+`bluemap/web/maps/**/tiles/**` ignores all tiles directories nested within the bluemap directory, including their contents.
 
-`- ./crash-reports/** and - ./logs/**` exclude the crash-reports and logs directories respectively, along with all their contents.
+`dynmap/web/tiles/**` ignores all content within the dynmap web tiles directory.
+
+`crash-reports/` and `logs/` ignore those directories and their contents.
+
+To negate (include) a previously excluded pattern, prefix it with `!`.
 
 <figure><img src="../.gitbook/assets/creatingfile.png" alt=""><figcaption><p>Ember Panel Files tab - new file</p></figcaption></figure>
 
@@ -52,12 +56,20 @@ _For Borg, lines in a pattern file start with + for include patterns and - for e
 
 ### Further Examples&#x20;
 
-To include a specific directory and all its contents: `+ /path/to/directory/**`&#x20;
+To exclude a specific directory: `path/to/directory/`&#x20;
 
-To exclude a specific directory: `- /path/to/directory/**`&#x20;
+To exclude all .log files: `*.log`&#x20;
 
-To include all .yml files in a specific directory: `+ /path/to/directory/**/*.yml`&#x20;
+To exclude a file: `filename.txt`&#x20;
 
-To exclude all .log files: `- *.log`
+To negate (include) a previously excluded pattern: `!important-file.txt`&#x20;
 
-By `@goldenedit` and `@icewaffles`
+To exclude everything except a specific directory:&#x20;
+
+```gitignore
+*
+!important-directory/
+!important-directory/**
+```
+
+By `@andyishereboi`, `@goldenedit` and `@icewaffles`
