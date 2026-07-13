@@ -1,5 +1,5 @@
 ---
-description: Everything there is to know about using our backups!
+description: How to make a backup of your Minecraft server!
 ---
 
 # Backups
