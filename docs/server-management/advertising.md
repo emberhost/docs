@@ -26,6 +26,8 @@ Even if you're not ranked at the top, lists generally will put your server into 
 
 [Minecraft Servers](https://minecraftservers.org/)
 
+[ServerBuddy](https://serverbuddy.net/) (Live status, player-count history, and uptime; no voting)
+
 [TopG](https://topg.org)
 
 [Top Minecraft Servers](https://topminecraftservers.org)
